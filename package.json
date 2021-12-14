@@ -1,0 +1,17 @@
+{
+  "name": "devcuts",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-content": "^1.0.1",
+    "csv-parse": "^5.0.3",
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "idb": "^7.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+command	keybinding_win	keybinding_osx	description
+Open keyboard settings	CTRL+K CTRL+S	⌘K ⌘S	See and change all keybindings
+One by one selection	Ctrl+D	⌘D	Use Ctrl + D if you want to add the occurrences of the current selection one by one. Each time you press the key combination it adds a new occurrence to the selection.
+Toggle the sidebar	ctrl+b	⌘B	Gives your code more space
+Move to Explorer window	Ctrl+Shift+E	⇧⌘E	
+Multi cursor selection	Ctrl+Shift+L	⇧⌘L	Add additional cursors to edit all occurrences of the current selection.
+Show suggestions	Ctrl+Space	⌃Space	Shows suggestions to quickly fill properties and other stuff.
+Fast scroll	Alt + Scroll	Alt + Scroll	Increases scroll speed with 5x
+Jump to file	Ctrl + P	⌘P	Search and open any file
+Run command	Ctrl + Shift + P	⇧⌘P	Run any command
+Go to Symbol in File	Ctrl + Shift + O	⇧⌘O	Allows you to jump around in the file
+Zen mode	Ctrl + K Z	⌘K Z	Block all distractions and focus
+Format Document	Shift + Alt + F	⇧⌥F	Format the document
+Copy line	Shift + Alt + ⬇	⇧⌥↓ / ⇧⌥↑	Copies the entire row
+Go to line	Ctrl + G	⌃G	Allows you to jump directly to a line number
+Search entire project	Ctrl + Shift + F	⇧⌘F	Searches all files in the project.
+Replace in entire project	Ctrl + Shift + H	⇧⌘H	Searches and replaces in all files in the project.
+Search in File	Ctrl + F	⌘F	Search in the current file
+Replace in File	Ctrl + H	⌘H	Searches and Replaces in the current file
+Trim Trailing Whitespace	Ctrl + K Ctrl + X	⌘K ⌘X	Removes all trailing whitespaces for the current line
+Select current line	Ctrl + L	⌘L	
+Add Line Comment	Ctrl + K Ctrl + C	⌘K ⌘C	Comments the current line
+Remove Line Comment	Ctrl+K Ctrl+U	⌘K ⌘U	Uncomments the current line. Reverse with `Ctrl+K Ctrl+C`

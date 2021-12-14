@@ -1,0 +1,125 @@
+html,
+body {
+  color: #fff;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  overflow: hidden;
+}
+
+.bgwrap {
+  width: 100vw;
+  height: 100vh;
+  animation: fadeIn 200ms ease-in-out 0s;
+  background-color: #000;
+  position: absolute;
+}
+.bg {
+  /* background-image: url("./bg3.jpg"); */
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.7;
+  overflow: hidden;
+
+}
+
+@keyframes showUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-10vw);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#app {
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.tip {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15vh;
+  color: #fff;
+  max-width: 750px;
+  animation: showUp 0.3s ease forwards;
+  text-shadow: 0 0 50px black;
+}
+
+.tip img {
+  max-width: 500px;
+  display: block;
+}
+
+code {
+  padding: 6px 10px;
+  background: #112232ad;
+  border-radius: 3px;
+  font-size: 1.3em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  left:20px;
+  right: 20px;
+  width: calc(100vw-40px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  padding-right: 10px;
+}
+
+.photo-credit a,
+a:visited {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.photo-credit a:hover {
+  text-decoration: underline;
+}
