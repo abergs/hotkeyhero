@@ -1,5 +1,4 @@
-# Hotkey Hero
-A browser extension for VS Code lovers.
+# Hotkey Hero - A browser extension for VS Code lovers
 Improve your work by learning the most powerful hotkeys, everytime you open a new tab.
 
 Demo and installation links available at https://hotkeyhero.andersaberg.com/.
