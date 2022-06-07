@@ -4,6 +4,8 @@ Improve your work by learning the most powerful hotkeys, everytime you open a ne
 
 Demo and installation links available at https://hotkeyhero.andersaberg.com/.
 
+![Screenshot splash](https://user-images.githubusercontent.com/357283/172364560-f6c84411-8583-4131-9a91-28066d0d474d.png)
+
 # Contribute the best hotkeys
 Missing a hotkey? Just add it to the TSV-file and it will be available in the extension automatically.
 
