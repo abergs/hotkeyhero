@@ -1,4 +1,19 @@
+# Hotkey Hero
+A browser extension for VS Code lovers.
+Improve your work by learning the most powerful hotkeys, everytime you open a new tab.
 
+Demo and installation links available at https://hotkeyhero.andersaberg.com/.
+
+# Contribute the best hotkeys
+Missing a hotkey? Just add it to the TSV-file and it will be available in the extension automatically.
+
+[Add a hotkey by editing vscode.tsv](https://github.com/abergs/hotkeyhero/blob/main/public/hotkeys/vscode.tsv)
+
+Every contributor will be listed here:
+
+* [Anders Åberg](https://github.com/abergs)
+
+## Contribution with code
 Build using yarn or npm:
 `yarn`
 `yarn build`
