@@ -1,6 +1,6 @@
 
 Build using yarn or npm:
-
+`yarn`
 `yarn build`
 
 # Requirements

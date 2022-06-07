@@ -1,4 +1,4 @@
-import myplugin from './myplugin.js';
+import csvImporter from './vite.csv.js';
 
 export default {
     build: {
@@ -6,6 +6,6 @@ export default {
         assetsDir: "",
     },
     plugins: [
-        myplugin()
+        csvImporter()
     ]
 }
